@@ -1,5 +1,8 @@
 <div align="center">
-    <img src="App/Assets/Images/TOM-Legend.png" alt="Logo" width="100%">
+    <img src="App/Assets/Images/TOM-Legend.png" alt="Logo" width="425"> 
+</div>
+<div align="center">
+     Powered with   <img src="App/Assets/Images/ts.png" alt="Logo" width="100" height="100">
 </div>
 
 ![GitHub Release Date](https://img.shields.io/github/release-date/thecodingmachine/react-native-boilerplate)
