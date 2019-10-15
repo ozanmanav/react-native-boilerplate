@@ -46,13 +46,13 @@ The driving goal of the architecture of the boilerplate is separation of concern
 
 The boilerplate contains:
 
-- a [React Native](https://facebook.github.io/react-native/) (v**0.60.5**) application (in "[ejected](https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md)" mode to allow using dependencies that rely on native code)
+- a [React Native](https://facebook.github.io/react-native/) (upgraded to v**0.61.2**) application (in "[ejected](https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md)" mode to allow using dependencies that rely on native code)
 - a [clear directory layout](#directory-layout) to provide a base architecture for your application
-- [Redux](https://redux.js.org/) (v4.0.1) to help manage state
+- [Redux](https://redux.js.org/) (upgraded to v4.0.4) to help manage state
 - [Redux Persist](https://github.com/rt2zz/redux-persist) (v5.10.0) to persist the Redux state
 - [Redux Sagas](https://redux-saga.js.org) (v1.0.2) to separate side-effects and logic from state and UI logic
 - [React Navigation](https://reactnavigation.org/) (v3.11.2) with a [`NavigationService`](App/Services/NavigationService.js) to handle routing and navigation in the app, with a splash screen setup by default
-- [reduxsauce](https://github.com/infinitered/reduxsauce) (v1.0.1) to facilitate using Redux
+- [reduxsauce](https://github.com/infinitered/reduxsauce) (v1.0.1) to facilitate using Redux (with stable .d.ts)
 - [axios](https://github.com/axios/axios) to make API calls (v0.19.0)
 - [prettier](https://prettier.io/) and [eslint](https://eslint.org/) preconfigured for React Native
 

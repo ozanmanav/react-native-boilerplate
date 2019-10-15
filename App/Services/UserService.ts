@@ -2,7 +2,7 @@ import axios from 'axios'
 import { Config } from 'App/Config'
 import { is, curryN, gte } from 'ramda'
 
-const isWithin = curryN(3, (min, max, value) => {
+const isWithin = curryN(3, (min: number, max: number, value: number) => {
   const isNumber = is(Number)
   return isNumber(min) && isNumber(max) && isNumber(value) && gte(value, min) && gte(max, value)
 })
@@ -28,7 +28,7 @@ const userApiClient = axios.create({
 function fetchUser() {
   // Simulate an error 50% of the time just for testing purposes
   if (Math.random() > 0.5) {
-    return new Promise(function(resolve, reject) {
+    return new Promise(function(resolve) {
       resolve(null)
     })
   }

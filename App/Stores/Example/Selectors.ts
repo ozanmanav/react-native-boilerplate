@@ -1,3 +1,5 @@
+import { AppState } from 'App/Stores'
+
 /**
  * Selectors let us factorize logic that queries the state.
  *
@@ -6,8 +8,8 @@
  * Writing selectors is optional as it is not always necessary, we provide a simple example below.
  */
 
-export const liveInEurope = (state) => {
-  if (Object.entries(state.example.user).length <= 0) return null
+export const liveInEurope = (state: AppState) => {
+  if (!state.example.user || Object.entries(state.example.user).length <= 0) return null
 
   // For this example, we imagine this cities are european cities
   let europeanCities = ['Gwenborough', 'Wisokyburgh', 'McKenziehaven', 'South Elvis', 'Roscoeview']
