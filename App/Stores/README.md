@@ -6,12 +6,12 @@ Here is an example of how to organize those concepts by theme:
 
 ```bash
 User/
-    Actions.js # Contains the redux actions for user management
-    InitialState.js # Contains the initial values for the state related to the user
-    Reducers.js # Contains the redux reducers for user management
+    Actions.ts # Contains the redux actions for user management
+    InitialState.ts # Contains the initial values for the state related to the user
+    Reducers.ts # Contains the redux reducers for user management
 Team/
-    Actions.js
-    InitialState.js
-    Reducers.js
+    Actions.ts
+    InitialState.ts
+    Reducers.ts
 ...
 ```

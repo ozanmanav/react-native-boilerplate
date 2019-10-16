@@ -5,8 +5,8 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest --detectOpenHandles",
-    "prettier-fix": "prettier --write **/*.js",
-    "prettier-check": "prettier --list-different **/*.js",
+    "prettier-fix": "prettier --write **/*.ts",
+    "prettier-check": "prettier --list-different **/*.ts",
     "lint-fix": "eslint --fix .",
     "lint-check": "eslint .",
     "rename": "react-native-rename",

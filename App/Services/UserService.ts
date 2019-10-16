@@ -15,7 +15,7 @@ const in200s = isWithin(200, 299)
  */
 const userApiClient = axios.create({
   /**
-   * Import the config from the App/Config/index.js file
+   * Import the config from the App/Config/index.ts file
    */
   baseURL: Config.API_URL,
   headers: {
