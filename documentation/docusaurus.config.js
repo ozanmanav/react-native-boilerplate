@@ -9,7 +9,8 @@
 
 module.exports = {
   title: 'React Native Boilerplate',
-  tagline: 'Ready to use react native architecture based on Separation of Concerns.',
+  tagline:
+    'Ready to use react native architecture based on Separation of Concerns.',
   url: 'https://thecodingmachine.github.io',
   baseUrl: '/react-native-boilerplate/',
   onBrokenLinks: 'warn',
@@ -31,7 +32,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/thecodingmachine/react-native-boilerplate',
+          href: 'https://github.com/ozanmanav/react-native-boilerplate-ts',
           label: 'GitHub',
           position: 'right',
         },
@@ -53,7 +54,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/thecodingmachine/react-native-boilerplate/edit/master/website-documentation/docs',
+            'https://github.com/ozanmanav/react-native-boilerplate-ts/edit/master/website-documentation/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

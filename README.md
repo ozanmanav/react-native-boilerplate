@@ -4,11 +4,11 @@
     <img src="documentation/static/img/TOM-Legend.png" alt="Logo" width="100%">
 </div>
 
-![GitHub Release Date](https://img.shields.io/github/release-date/thecodingmachine/react-native-boilerplate)
-![GitHub last commit](https://img.shields.io/github/last-commit/thecodingmachine/react-native-boilerplate)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/thecodingmachine/react-native-boilerplate)
-![GitHub commits since latest release](https://img.shields.io/github/commits-since/thecodingmachine/react-native-boilerplate/latest)
-![GitHub top language](https://img.shields.io/github/languages/top/thecodingmachine/react-native-boilerplate)
+![GitHub Release Date](https://img.shields.io/github/release-date/ozanmanav/react-native-boilerplate-ts)
+![GitHub last commit](https://img.shields.io/github/last-commit/ozanmanav/react-native-boilerplate-ts)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ozanmanav/react-native-boilerplate-ts)
+![GitHub commits since latest release](https://img.shields.io/github/commits-since/ozanmanav/react-native-boilerplate-ts/latest)
+![GitHub top language](https://img.shields.io/github/languages/top/ozanmanav/react-native-boilerplate-ts)
 
 # TheCodingMachine React Native boilerplate
 
@@ -34,7 +34,7 @@ Follow instructions for your given `development OS` and `target OS`.
 To create a new project using the boilerplate simply run :
 
 ```
-npx react-native init MyApp --template @thecodingmachine/react-native-boilerplate
+npx react-native init MyApp --template @ozanmanav/react-native-boilerplate-ts
 ```
 
 Assuming you have all the requirements installed, you can setup and run the project by running:

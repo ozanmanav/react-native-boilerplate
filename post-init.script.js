@@ -26,8 +26,8 @@ console.log(
   '- If you need to read more about this boilerplate : https://thecodingmachine.github.io/react-native-boilerplate/'
 )
 console.log(
-  '- If you have some troubles : https://github.com/thecodingmachine/react-native-boilerplate/issues'
+  '- If you have some troubles : https://github.com/ozanmanav/react-native-boilerplate-ts/issues'
 )
 console.log(
-  '- If you love this boilerplate, give us a star, you will be a ray of sunshine in our lives :) https://github.com/thecodingmachine/react-native-boilerplate'
+  '- If you love this boilerplate, give us a star, you will be a ray of sunshine in our lives :) https://github.com/ozanmanav/react-native-boilerplate-ts'
 )
