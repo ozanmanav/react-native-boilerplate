@@ -1,4 +1,4 @@
-# This is a Typescript powered fork repo. I constantly update this repo with the original repo. The last update date is 06.11.2020.
+# This is a Typescript powered fork repo. I constantly update this repo with the original repo. The last update date is 06.12.2020.
 
 <div align="center">
     <img src="documentation/static/img/TOM-Legend.png" alt="Logo" width="100%">
